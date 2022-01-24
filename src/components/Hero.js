@@ -1,5 +1,4 @@
 import React from 'react';
-import lass from '../assets/img/Lass_SI.png';
 import me from '../assets/img/dp-no-bg-compressed.png';
 import beach4 from '../assets/img/beach4.jpg';
 
