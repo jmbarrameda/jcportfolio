@@ -19,10 +19,10 @@ const Hero = () => {
             <p className='pl-1 text-lightBeach md:text-darkBrown text-lg sm:text-xl font-semibold'>
               Hi I'm
             </p>
-            <h1 className='text-4xl sm:text-5xl md:text-6xl text-lightBeach md:text-darkBrown font-bold'>
+            <h1 className='text-4xl sm:text-5xl md:text-6xl text-lightBeach md:text-darkBrown font-bold sm:mb-8'>
               Jaycee Barrameda
             </h1>
-            <p className='text-lightBeach text-lg sm:text-xl mt-2 max-w-xl'>
+            <p className='text-lightBeach text-lg sm:text-xl mt-2 max-w-xl sm:mb-4 '>
               Passionate Software Developer with a high motivation for building
               state-of-the-art, optimized, and user friendly applications and
               websites through React.js.

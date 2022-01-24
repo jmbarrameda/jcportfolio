@@ -5,6 +5,7 @@ module.exports = {
       colors: {
         // lightBeach: '#F2EAE4',
         lightBeach: '#fffefc',
+        darkBeach: '#ECE5DB',
         // darkBrown: '#3E4001',
         darkBrown: '#4a73b1',
         medjoBrown: '#A67165',

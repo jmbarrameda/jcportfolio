@@ -3,13 +3,14 @@ import React from 'react';
 const Section = (props) => {
   return (
     <section
-      className={`h-screen relative `}
-      style={{ backgroundColor: `${props.bgColor}`, height: '90vh' }}
+      className={`relative flex justify-center items-center`}
+      style={{ backgroundColor: `${props.bgColor}`, minHeight: '90vh' }}
     >
+      {props.children}
       <svg
         xmlns='http://www.w3.org/2000/svg'
         viewBox='0 0 1440 70'
-        className='absolute z-10 bottom-0'
+        className='absolute bottom-0'
         preserveAspectRatio='none'
       >
         <path
