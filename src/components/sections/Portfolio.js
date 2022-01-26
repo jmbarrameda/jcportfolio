@@ -49,9 +49,6 @@ const Portfolio = () => {
               slidesPerView={1}
               spaceBetween={30}
               loop={true}
-              pagination={{
-                clickable: true,
-              }}
               pagination={true}
               navigation={true}
               className='mySwiper max-h-fit md:max-w-3xl lg:max-w-4xl rounded-lg'
