@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Footer from './components/Footer';
 import Section from './components/Section';
 import About from './components/sections/About';
+import Portfolio from './components/sections/Portfolio';
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
       <Section bgColor='#fffefc' waveColor='#ECE5DB'>
         <About />
       </Section>
-      <Section bgColor='#ECE5DB' waveColor='#CAE6EA'></Section>
+      <Section bgColor='#ECE5DB' waveColor='#CAE6EA'>
+        <Portfolio />
+      </Section>
       <Section bgColor='#CAE6EA' waveColor='#00C5CE'></Section>
       <Section bgColor='#00C5CE' waveColor='#028ABC'></Section>
       <Section bgColor='#028ABC' waveColor='#004775'></Section>
